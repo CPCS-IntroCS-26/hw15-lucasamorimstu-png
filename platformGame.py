@@ -1,4 +1,4 @@
-import pgzrun
+import pygame
 
 # Variables
 TITLE = "Platform Game"
@@ -10,4 +10,4 @@ def draw():
     screen.clear()
     screen.draw.filled_rect(player, "blue")
 
-pgzrun.go()
+pygame.go()
